@@ -1,0 +1,77 @@
+{
+  "liczba_przykladow": 200,
+  "liczba_cech": 11,
+  "klasy": {
+    "0": 102,
+    "1": 98
+  },
+  "random_state": 42,
+  "train": 160,
+  "test": 40,
+  "cechy_numerowane_od_1": {
+    "naoczna": [
+      5,
+      6,
+      10
+    ],
+    "wariancja": [
+      5,
+      6,
+      10,
+      11
+    ],
+    "kbest": [
+      5,
+      6,
+      10
+    ],
+    "drzewa": [
+      5,
+      6,
+      10
+    ]
+  },
+  "najlepsze_wyniki": {
+    "oryginalny": {
+      "accuracy": 0.725,
+      "k": [
+        3
+      ],
+      "poprawne": 29,
+      "liczba_cech": 11
+    },
+    "naoczna": {
+      "accuracy": 0.65,
+      "k": [
+        13
+      ],
+      "poprawne": 26,
+      "liczba_cech": 3
+    },
+    "wariancja": {
+      "accuracy": 0.675,
+      "k": [
+        7,
+        9
+      ],
+      "poprawne": 27,
+      "liczba_cech": 4
+    },
+    "kbest": {
+      "accuracy": 0.65,
+      "k": [
+        13
+      ],
+      "poprawne": 26,
+      "liczba_cech": 3
+    },
+    "drzewa": {
+      "accuracy": 0.65,
+      "k": [
+        13
+      ],
+      "poprawne": 26,
+      "liczba_cech": 3
+    }
+  }
+}
